@@ -62,4 +62,4 @@ const consumoApi = async () => {
 }
 
 document.getElementById('cep')
-    .addEventListener('focusout', consumoApi())
+    .addEventListener('focusout', consumoApi)
