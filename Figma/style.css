@@ -1,22 +1,44 @@
+
+
+
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.bg{
-    width: 1920px
-    height: 560px
+
+header{
     background: #D7D4FF;
-
-
 }
 
+.container-grid{
+    width: 1000px;
+    margin: 0 auto;
+}
 
+.info-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
+.info-header__flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 250px;
+    width: 250px;
+}
 
-footer>p
-    width: 1920px
-    height: 750px
-    top: 1774px
+.info-header__flex{
+    font-family: var(--font-princpal);
+}
 
+.info-header__flex button{
+    width:  100px;
+    height:  30px;
+    border: none;
 }

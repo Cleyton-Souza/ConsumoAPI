@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Cleyton Souza">
     <title>Projeto Baseado em FIGMA</title>
+    <link rel="stylesheet" href="./style.css">
     <!-- https://www.figma.com/file/yb9o5p1idMl4zbTveWlIwJ/Ford-Noturno?type=design&node-id=0-3&mode=design&t=zEd8ZgktxpgmDbG8-0 -->
 </head>
 <body>
-    <header class="bg">
-        <section>
-            <div class="columm">
-                <h2>
+    <header>
+        <section class="info header container-grid">
+            <div class="info-header__flex">
+                <h1>
                     <strong>
                     Lorem ipsum dolor sit amet
                     </strong>
-                </h2>
+                </h1>
                 
                 <p>
                     Lorem ipsum dolor sit amet, consectetur <br>
@@ -29,27 +30,29 @@
 
             </div>
 
-            <div class="">
-                <img src="./img/imagem.svg" width: 500px; height: 359.75px>
+            <div class="info-header__img">
+                <img src="./img/imagem.svg" alt="">
             </div>
-
         </section>    
-
     </header>
-
-    <article>
-        <section>
-            <div>
-                <p>
+    <main>
+        <h1>
+            Mais informações
+        </h1>
+        <section class="flex-cards__style container-grid">
+            <div class="flex-cards">
+                <img src="./img/" alt="">
+                <div class="flex-cards__info"></div> 
+                <h3>
                     Título do card
-                </p>
+                </h3>
                 <br>
                 Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Vestibulum in neque et nisl.
             </div>
             <div>
-                <p>
+                <h3>
                     Título do card
-                </p>
+                </h3>
                 <br>
                 Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Vestibulum in neque et nisl.
             </div>
@@ -93,7 +96,7 @@
             
         </section>
         
-    </article>
+    </main>
 
     <footer>
 

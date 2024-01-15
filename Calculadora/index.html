@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body style="background-color: rgb(149, 81, 118);">
+  
+    <section class="flex-form">
+        <form action="" class="form" onsubmit="calcular()">
+            <fieldset class="info-flex">
+                <legend>Calculadora</legend>
+
+                <label for="">Informe o primeiro número para o cálculo</label>
+                <input type="number" name="num1" id="num1">
+                <label for="">Informe o segundo número para o cálculo</label>
+                <input type="number" name="num2" id="num2">
+
+                <br><br>
+
+                <label for="">Informe qual operação você deseja realizar...</label>
+
+                <select name="operacao" id="operacao">
+                    <option value="operacao" selected disabled>operacao</option>
+                    <option value="soma">soma</option>
+                    <option value="subtracao">subtracao</option>
+                    <option value="multiplicacao">multiplicacao</option>
+                    <option value="divisao">divisao</option>
+                </select>
+
+                <p>resultado: <strong id="resultado"></strong></p>
+
+                <button>Calcular</button>
+
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
